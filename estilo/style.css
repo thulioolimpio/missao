@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: lightgrey;
+    min-height: 100vh;
+}
+header{
+    background-image: linear-gradient(to right, red, green, yellow);
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+
+}
+
+header h1{
+    font-variant: small-caps;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 2.8vw;
+}
+section{
+
+    background-color: white;
+    padding: 10px;
+    line-height: 3em;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+
+
+
+
+}
+section.foto{
+    background-color: gray;
+    text-align: left;
+    
+}
+#scrr{
+    font-size: 3vw;
+    line-height: 2em;
+}
+
+
+.foto p{
+    display: inline-block;
+    color: white;
+    background-color: rgba(90, 90, 90, 0.219);
+    line-height: 2em;
+
+    font-size: 3vw
+}
+#ft01{
+    background-image: url('../imagens/WhatsApp\ Image\ 2024-07-10\ at\ 16.44.10.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#ft02{
+    background-image: url('../imagens/WhatsApp\ Image\ 2024-07-10\ at\ 16.42.11.jpeg');
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;   
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
